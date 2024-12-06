@@ -150,8 +150,8 @@ def evaluate(config, model, data_iter, test=False):
     if test:
         print("\nTime Difference (s): " + str(diff))
         print("Per Sample Use (s): " + str(diff / datasize) + "\n")
-        report = metrics.classification_report(labels_all, predict_all, target_names=config.class_list, digits=4)
-        print(report)
+        #report = metrics.classification_report(labels_all, predict_all, target_names=config.class_list, digits=4)
+        #print(report)
         confusion = metrics.confusion_matrix(labels_all, predict_all)
         f1 = metrics.f1_score(labels_all, predict_all, average='macro')
         return acc, loss_total / len(data_iter), f1, confusion

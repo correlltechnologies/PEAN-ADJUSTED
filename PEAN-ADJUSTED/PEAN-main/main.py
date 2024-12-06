@@ -148,6 +148,7 @@ def prepare_data():
     return train_data
 
 if __name__ == '__main__':
+    start_time = time.time()
     config = get_config()
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -169,7 +170,9 @@ if __name__ == '__main__':
         test_iter = build_iterator(test_, config)
         dev_iter = build_iterator(test_, config)
         acc_, loss_, f1_, fpr_, tpr_, ftf_ = train(config, model, train_iter, dev_iter, test_iter)
-
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Elapsed time: {elapsed_time:.2f} seconds")
         print('*' * 25, 'result of', i + 1, 'fold', '*' * 25)
         print('loss:%.6f' % loss_, 'acc:%.4f' % acc_, 'FPR:%.4f' % fpr_, 'TPR:%.4f' % tpr_, 'FTF:%.4f' % ftf_, 'F1-macro:%.4f' % f1_, "\n")
         valid_loss += loss_

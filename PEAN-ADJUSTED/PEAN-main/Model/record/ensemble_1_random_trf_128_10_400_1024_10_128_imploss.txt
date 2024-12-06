@@ -1,0 +1,254 @@
+----------------------------
+
+Iput Feature: ensemble
+Random Seed: 1
+Sequential use: trf
+Embedding way: random(hidden:1024)
+Embedding Size: 128
+Pad_num: 10
+Pad_len: 400
+Length use: lstm(emb: 32, hidden:128)
+Pad_len_seq: 10
+trf heads:8
+trf_layers: 2
+Use Improved loss: True
+Learning Rate: 0.001
+Batch Size:1
+----------------------------
+
+Loading data...
+train_set: 30
+Epoch [1/300]
+lr now is: 0.000992
+Iter:      0,  Train Loss:   8.5,  Train Acc:  0.00%,  Val Loss:   3.9,  Val Acc:  0.00%,  Time: 0:00:00 *
+Epoch [2/300]
+lr now is: 0.000984064
+Epoch [3/300]
+lr now is: 0.000976191488
+Epoch [4/300]
+lr now is: 0.0009683819560959999
+Iter:    100,  Train Loss:   0.6,  Train Acc: 100.00%,  Val Loss:   0.5,  Val Acc: 100.00%,  Time: 0:00:04 *
+Epoch [5/300]
+lr now is: 0.0009606349004472319
+Epoch [6/300]
+lr now is: 0.0009529498212436541
+Epoch [7/300]
+lr now is: 0.0009453262226737048
+Epoch [8/300]
+lr now is: 0.0009377636128923151
+Iter:    200,  Train Loss:   5.9,  Train Acc:  0.00%,  Val Loss:   1.4,  Val Acc: 33.33%,  Time: 0:00:07 
+Epoch [9/300]
+lr now is: 0.0009302615039891766
+Epoch [10/300]
+lr now is: 0.0009228194119572632
+Epoch [11/300]
+lr now is: 0.0009154368566616051
+Epoch [12/300]
+lr now is: 0.0009081133618083123
+Iter:    300,  Train Loss:  0.72,  Train Acc: 100.00%,  Val Loss:  0.69,  Val Acc: 66.67%,  Time: 0:00:10 
+Epoch [13/300]
+lr now is: 0.0009008484549138457
+Epoch [14/300]
+lr now is: 0.0008936416672745349
+Epoch [15/300]
+lr now is: 0.0008864925339363386
+Iter:    400,  Train Loss:   1.3,  Train Acc: 100.00%,  Val Loss:  0.55,  Val Acc: 66.67%,  Time: 0:00:13 
+Epoch [16/300]
+lr now is: 0.0008794005936648479
+Epoch [17/300]
+lr now is: 0.0008723653889155291
+Epoch [18/300]
+lr now is: 0.0008653864658042048
+Epoch [19/300]
+lr now is: 0.0008584633740777711
+Iter:    500,  Train Loss:   2.6,  Train Acc: 100.00%,  Val Loss:  0.57,  Val Acc: 66.67%,  Time: 0:00:17 
+Epoch [20/300]
+lr now is: 0.000851595667085149
+Epoch [21/300]
+lr now is: 0.0008447829017484678
+Epoch [22/300]
+lr now is: 0.00083802463853448
+Epoch [23/300]
+lr now is: 0.0008313204414262042
+Iter:    600,  Train Loss:   3.7,  Train Acc: 100.00%,  Val Loss:  0.58,  Val Acc: 100.00%,  Time: 0:00:20 
+Epoch [24/300]
+lr now is: 0.0008246698778947945
+Epoch [25/300]
+lr now is: 0.0008180725188716362
+Epoch [26/300]
+lr now is: 0.0008115279387206631
+Iter:    700,  Train Loss:   2.8,  Train Acc: 100.00%,  Val Loss:  0.47,  Val Acc: 100.00%,  Time: 0:00:24 *
+Epoch [27/300]
+lr now is: 0.0008050357152108977
+Epoch [28/300]
+lr now is: 0.0007985954294892105
+Epoch [29/300]
+lr now is: 0.0007922066660532968
+Epoch [30/300]
+lr now is: 0.0007858690127248704
+Iter:    800,  Train Loss:   3.5,  Train Acc: 100.00%,  Val Loss:  0.45,  Val Acc: 100.00%,  Time: 0:00:28 *
+Epoch [31/300]
+lr now is: 0.0007795820606230715
+Epoch [32/300]
+lr now is: 0.0007733454041380869
+Epoch [33/300]
+lr now is: 0.0007671586409049822
+Epoch [34/300]
+lr now is: 0.0007610213717777423
+Iter:    900,  Train Loss:   1.4,  Train Acc: 100.00%,  Val Loss:  0.45,  Val Acc: 100.00%,  Time: 0:00:32 
+Epoch [35/300]
+lr now is: 0.0007549332008035204
+Epoch [36/300]
+lr now is: 0.0007488937351970922
+Epoch [37/300]
+lr now is: 0.0007429025853155154
+Epoch [38/300]
+lr now is: 0.0007369593646329913
+Iter:   1000,  Train Loss:   1.9,  Train Acc: 100.00%,  Val Loss:  0.43,  Val Acc: 100.00%,  Time: 0:00:36 *
+Epoch [39/300]
+lr now is: 0.0007310636897159273
+Epoch [40/300]
+lr now is: 0.0007252151801981999
+Epoch [41/300]
+lr now is: 0.0007194134587566143
+Iter:   1100,  Train Loss:   3.7,  Train Acc: 100.00%,  Val Loss: 0.042,  Val Acc: 100.00%,  Time: 0:00:40 *
+Epoch [42/300]
+lr now is: 0.0007136581510865614
+Epoch [43/300]
+lr now is: 0.0007079488858778689
+Epoch [44/300]
+lr now is: 0.000702285294790846
+Epoch [45/300]
+lr now is: 0.0006966670124325192
+Iter:   1200,  Train Loss:  0.95,  Train Acc: 100.00%,  Val Loss: 0.058,  Val Acc: 100.00%,  Time: 0:00:46 
+Epoch [46/300]
+lr now is: 0.000691093676333059
+Epoch [47/300]
+lr now is: 0.0006855649269223946
+Epoch [48/300]
+lr now is: 0.0006800804075070154
+Epoch [49/300]
+lr now is: 0.0006746397642469593
+Iter:   1300,  Train Loss:   1.4,  Train Acc: 100.00%,  Val Loss: 0.072,  Val Acc: 100.00%,  Time: 0:00:49 
+Epoch [50/300]
+lr now is: 0.0006692426461329836
+Epoch [51/300]
+lr now is: 0.0006638887049639198
+Epoch [52/300]
+lr now is: 0.0006585775953242084
+Iter:   1400,  Train Loss:   2.2,  Train Acc: 100.00%,  Val Loss: 0.022,  Val Acc: 100.00%,  Time: 0:00:53 *
+Epoch [53/300]
+lr now is: 0.0006533089745616147
+Epoch [54/300]
+lr now is: 0.0006480825027651218
+Epoch [55/300]
+lr now is: 0.0006428978427430008
+Epoch [56/300]
+lr now is: 0.0006377546600010569
+Iter:   1500,  Train Loss:   2.6,  Train Acc: 100.00%,  Val Loss: 0.021,  Val Acc: 100.00%,  Time: 0:00:57 *
+Epoch [57/300]
+lr now is: 0.0006326526227210484
+Epoch [58/300]
+lr now is: 0.00062759140173928
+Epoch [59/300]
+lr now is: 0.0006225706705253657
+Epoch [60/300]
+lr now is: 0.0006175901051611628
+Iter:   1600,  Train Loss:   3.0,  Train Acc: 100.00%,  Val Loss: 0.017,  Val Acc: 100.00%,  Time: 0:01:02 *
+Epoch [61/300]
+lr now is: 0.0006126493843198735
+Epoch [62/300]
+lr now is: 0.0006077481892453145
+Epoch [63/300]
+lr now is: 0.000602886203731352
+Iter:   1700,  Train Loss:   2.5,  Train Acc: 100.00%,  Val Loss: 0.017,  Val Acc: 100.00%,  Time: 0:01:06 *
+Epoch [64/300]
+lr now is: 0.0005980631141015012
+Epoch [65/300]
+lr now is: 0.0005932786091886891
+Epoch [66/300]
+lr now is: 0.0005885323803151796
+Epoch [67/300]
+lr now is: 0.0005838241212726582
+Iter:   1800,  Train Loss:   1.9,  Train Acc: 100.00%,  Val Loss: 0.012,  Val Acc: 100.00%,  Time: 0:01:11 *
+Epoch [68/300]
+lr now is: 0.000579153528302477
+Epoch [69/300]
+lr now is: 0.0005745203000760571
+Epoch [70/300]
+lr now is: 0.0005699241376754487
+Epoch [71/300]
+lr now is: 0.0005653647445740452
+Iter:   1900,  Train Loss:   3.2,  Train Acc: 100.00%,  Val Loss: 0.011,  Val Acc: 100.00%,  Time: 0:01:17 *
+Epoch [72/300]
+lr now is: 0.0005608418266174528
+Epoch [73/300]
+lr now is: 0.0005563550920045132
+Epoch [74/300]
+lr now is: 0.000551904251268477
+Epoch [75/300]
+lr now is: 0.0005474890172583292
+Iter:   2000,  Train Loss:   1.1,  Train Acc: 100.00%,  Val Loss: 0.0073,  Val Acc: 100.00%,  Time: 0:01:21 *
+Epoch [76/300]
+lr now is: 0.0005431091051202625
+Epoch [77/300]
+lr now is: 0.0005387642322793003
+Epoch [78/300]
+lr now is: 0.000534454118421066
+Iter:   2100,  Train Loss:   3.5,  Train Acc: 100.00%,  Val Loss: 0.0065,  Val Acc: 100.00%,  Time: 0:01:26 *
+Epoch [79/300]
+lr now is: 0.0005301784854736974
+----------------------------
+
+Iput Feature: ensemble
+Random Seed: 1
+Sequential use: trf
+Embedding way: random(hidden:1024)
+Embedding Size: 128
+Pad_num: 10
+Pad_len: 400
+Length use: lstm(emb: 32, hidden:128)
+Pad_len_seq: 10
+trf heads:8
+trf_layers: 2
+Use Improved loss: True
+Learning Rate: 0.001
+Batch Size:1
+----------------------------
+
+Loading data...
+train_set: 30
+Epoch [1/300]
+lr now is: 0.000992
+Iter:      0,  Train Loss:   8.5,  Train Acc:  0.00%,  Val Loss:   3.9,  Val Acc:  0.00%,  Time: 0:00:00 *
+Epoch [2/300]
+lr now is: 0.000984064
+Epoch [3/300]
+lr now is: 0.000976191488
+Epoch [4/300]
+lr now is: 0.0009683819560959999
+Iter:    100,  Train Loss:   0.6,  Train Acc: 100.00%,  Val Loss:   0.5,  Val Acc: 100.00%,  Time: 0:00:03 *
+Epoch [5/300]
+lr now is: 0.0009606349004472319
+Epoch [6/300]
+lr now is: 0.0009529498212436541
+Epoch [7/300]
+lr now is: 0.0009453262226737048
+Epoch [8/300]
+lr now is: 0.0009377636128923151
+Iter:    200,  Train Loss:   5.9,  Train Acc:  0.00%,  Val Loss:   1.4,  Val Acc: 33.33%,  Time: 0:00:07 
+Epoch [9/300]
+lr now is: 0.0009302615039891766
+Epoch [10/300]
+lr now is: 0.0009228194119572632
+Epoch [11/300]
+lr now is: 0.0009154368566616051
+Epoch [12/300]
+lr now is: 0.0009081133618083123
+Iter:    300,  Train Loss:  0.72,  Train Acc: 100.00%,  Val Loss:  0.69,  Val Acc: 66.67%,  Time: 0:00:12 
+Epoch [13/300]
+lr now is: 0.0009008484549138457
+Epoch [14/300]
+lr now is: 0.0008936416672745349
+Epoch [15/300]
+lr now is: 0.0008864925339363386
