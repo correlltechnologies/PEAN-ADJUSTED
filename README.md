@@ -3,7 +3,7 @@
 Adjusted PEAN model for CS438 Final Project Implementation\
 Forked from https://github.com/Lin-Dada/PEAN
 
-## Adjustments:
+## Adjustments (For system compatibility, utility of model outputs):
 Model outputs - added training time parameter\
 Adjusted batch sizes to accomodate data set
 
