@@ -5,6 +5,7 @@ Forked from https://github.com/Lin-Dada/PEAN
 
 ## Adjustments:
 Model outputs - added training time parameter\
+Adjusted batch sizes to accomodate data set
 
 ### System configurations and packages required:
 
